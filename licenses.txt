@@ -1,0 +1,164 @@
+Name, Author, Download URL, Attribution url, License Type
+
+
+//animals
+tiger.jpg, not mentioned, https://pxhere.com/en/photo/345312, n/a, cc0
+lion.jpg, Alexas_Fotos, https://pixabay.com/en/lion-predator-dangerous-mane-cat-3040797/, n/a, cc0
+cat.jpg, not mentioned, https://pxhere.com/en/photo/675156, n/a, cc0
+elephant.jpg, Alexas_Fotos, https://pixabay.com/en/elephant-proboscis-pachyderm-animal-3325975/, n/a, cc0
+wolf.jpg, not mentioned, https://pxhere.com/en/photo/4572, n/a, cc0
+puppy.jpg, not mentioned, https://pxhere.com/en/photo/1264875, n/a, cc0
+squirrel.jpg, Mark9975, https://pixabay.com/en/squirrel-animals-wild-animals-2936889/, n/a, cc0
+cheetah.jpg, HoliHo, https://pixabay.com/en/cheetah-predator-animal-world-3322695/, n/a, cc0
+deer.jpg, zifo, https://pixabay.com/en/deer-mammals-wild-animals-nature-3324869/, n/a, cc0
+fox.jpg, xeppo, https://pixabay.com/en/mammals-wildlife-expensive-fox-3218028/, n/a, cc0
+meerkat.jpg, Alexas_Fotos, https://pixabay.com/en/meerkat-animal-nature-zoo-3314348/, n/a, cc0
+giraffe.jpg, Alexas_Fotos, https://pixabay.com/en/giraffe-zoo-animal-animal-portrait-3372338/, n/a, cc0
+frog.jpg, Gellinger, https://pixabay.com/en/nature-animal-frog-tree-frog-3391119/, n/a, cc0
+zebra.jpg, Alexas_Fotos, https://pixabay.com/en/zebra-wild-animal-zoo-africa-3387823/, n/a, cc0
+sheep.jpg, MabelAmber, https://pixabay.com/en/sheep-ewe-animal-mammal-even-toed-3386595/, n/a, cc0
+seal.jpg, Alexas_Fotos, https://pixabay.com/en/seal-sea-lion-swim-water-robbe-3388771/, n/a, cc0
+gorilla.jpg, HoliHo, https://pixabay.com/en/gorilla-monkey-animal-world-3373856/, n/a, cc0
+cow.jpg, artyangel, https://pixabay.com/en/herd-cows-farm-animal-3391451/, n/a, cc0
+horse.jpg, Katzenfee50, https://pixabay.com/en/pony-mare-galloping-brown-3374153/, n/a, cc0
+bear.jpg, Alexas_Fotos, https://pixabay.com/en/european-brown-bear-play-together-3366190/, n/a, cc0
+goat.jpg, Alexas_Fotos, https://pixabay.com/en/goats-mama-child-young-animal-cute-3364434/, n/a, cc0
+donkey.jpg, david47, https://pixabay.com/en/donkey-white-ass-gray-donkey-3385031/, n/a, cc0
+monkey.jpg, elsemargriet, https://pixabay.com/en/monkey-zoo-planckendael-belgium-3375360/, n/a, cc0
+pig.jpg, RoyBuri, https://pixabay.com/en/pig-launchy-suckle-piglet-funny-3386335/, n/a, cc0
+yak.jpg, StrategicWebDesign_Net, https://pixabay.com/en/yak-livestock-horns-cattle-597862/, n/a, cc0
+moose.jpg, 12019, https://pixabay.com/en/moose-moose-rack-male-bull-animal-70254/, n/a, cc0
+bison.jpg, LubosHouska, https://pixabay.com/en/bison-european-bison-animal-large-2118538/, n/a, cc0
+panda.jpg, mordilla-net, https://pixabay.com/en/mammal-animal-world-cute-animal-3162194/, n/a, cc0
+koala.jpg, TahliArtPhotography, https://pixabay.com/en/mammal-wildlife-animal-zoo-cute-3365512/, n/a, cc0
+anteater.jpg, joelfotos, https://pixabay.com/en/flag-anteater-animal-wild-brazilian-1200155/, n/a, cc0
+rabbit.jpg, RonaldPlett, https://pixabay.com/en/rabbit-grass-cute-bunny-easter-3273987/, n/a, cc0
+hippopotamus.jpg, onkelramirez1, https://pixabay.com/en/hippopotamus-hippo-zoo-mammal-2641871/, n/a, cc0
+rhinoceros.jpg, petto123, https://pixabay.com/en/rhinoceros-safari-animal-nature-3305249/, n/a, cc0
+racoon.jpg, naeimasgary, https://pixabay.com/en/racoon-animal-garden-summer-1453600/, n/a, cc0
+
+
+//Fruits
+pineapple.jpg, monicore, https://pixabay.com/en/pineapple-fruit-vintage-food-3324835/, n/a, cc0
+apple.jpg, HoliHo, https://pixabay.com/en/apple-fruit-red-food-nature-wood-3313209/, n/a, cc0
+strawberry.jpg, Engin_Akyurt, https://pixabay.com/en/strawberry-fruit-red-passion-2960533/, n/a, cc0
+blueberries.jpg, congerdesign, https://pixabay.com/en/blueberries-dessert-daisy-fruit-2278921/, n/a, cc0
+apricots.jpg, 1195798, https://pixabay.com/en/apricots-sugar-apricots-fruit-2523272/, n/a, cc0
+raspberries.jpg, congerdesign, https://pixabay.com/en/raspberries-berries-fruits-fruit-2431029/, n/a, cc0
+cherry.jpg, not mentioned, https://pxhere.com/en/photo/1072078, n/a, cc0
+kiwi.jpg, koltrein, https://pixabay.com/en/fruits-and-vegetables-fruit-kiwi-1274079/, n/a, cc0
+orange.jpg, not mentioned, https://www.pexels.com/photo/orange-fruit-53371/, n/a, cc0
+pomegranate.jpg, megspl, https://pixabay.com/en/pomegranate-fruit-exotic-fruit-3383814/, n/a, cc0
+pears.jpg, piro4d, https://pixabay.com/en/fruit-pear-pear-basket-sweet-1534494/, n/a, cc0
+banana.jpg, TheDigitalArtist, https://pixabay.com/en/bananas-fruit-yellow-healthy-1119790/, n/a, cc0
+watermelon.jpg, congerdesign, https://pixabay.com/en/watermelon-melon-juicy-fruit-food-815072/, n/a, cc0 
+cantaloupe.jpg, Dgraph, https://pixabay.com/en/melon-fruit-power-2314618/, n/a, cc0
+grapefruit.jpg, Couleur, https://pixabay.com/en/grapefruit-fruit-red-sweet-1647688/, n/a, cc0
+grapes.jpg, Alexas_Fotos, https://pixabay.com/en/grapes-fruits-healthy-fruit-food-3294412/, n/a, cc0
+fig.jpg, stux, https://pixabay.com/en/fig-sliced-plate-wooden-table-972271/, n/a, cc0
+mango.jpg, rauschenberger, https://pixabay.com/en/fruit-food-mango-juicy-3298948/, n/a, cc0
+dragonfruit.jpg, GoPlaces, https://pixabay.com/en/fruit-dragon-white-isolated-2477516/, n/a, cc0
+blackgrapes.jpg, MarjanNo, https://pixabay.com/en/fruit-nature-sheet-grape-3309977/, n/a, cc0
+litchi.jpg, stevepb, https://pixabay.com/en/lychee-litchi-tropical-fruit-sweet-3064709/, n/a, cc0
+custardapple.jpg, annhien, https://pixabay.com/en/fruit-custard-apple-organic-fresh-951792/, n/a, cc0
+papaya.jpg, stevepb, https://pixabay.com/en/papaya-tropical-fruit-pawpaw-ripe-771145/, n/a, cc0
+avocardo.jpg, stevepb, https://pixabay.com/en/avocado-salad-fresh-food-3210885/, n/a, cc0
+guava.jpg, liguoze, https://pixabay.com/en/guava-fruit-dim-sum-1418020/, n/a, cc0
+cranberries.jpg, PublicDomainPictures, https://pixabay.com/en/backdrop-background-berry-cranberry-22024/, n/a, cc0
+dates.jpg, sweyang, https://pixabay.com/en/date-herb-berry-jujube-chinese-1091228/, n/a, cc0
+gooseberries.jpg, ruslanababenko, https://pixabay.com/en/gooseberry-leaf-green-berry-2452511/, n/a, cc0
+jackfruit.jpg, 4665562, https://pixabay.com/en/jackfruit-tree-african-green-2108869/, n/a, cc0
+plum.jpg, congerdesign, https://pixabay.com/en/plums-fruit-ripe-violet-fruits-2724160/, n/a, cc0
+olives.jpg, michaelmep, https://pixabay.com/en/olives-market-market-hall-2251260/, n/a, cc0
+tamarind.jpg, changephoto, https://pixabay.com/en/tamarind-fruits-food-fresh-natural-636962/, n/a, cc0
+passionfruit, not mentioned, https://www.maxpixel.net/Tropical-Fruit-Passion-Fruit-1501212, n/a, cc0
+
+
+//Tech companies
+linkedin.jpg, illustrade, https://pixabay.com/en/linked-in-logo-company-editorial-2668696/, n/a, cc0
+apple.jpg, raphaelsilva,https://pixabay.com/en/apple-apple-icon-apple-logo-3384010/, n/a, cc0
+google.jpg, WikimediaImages, https://pixabay.com/en/google-favicon-logo-icon-2015-1015752/, n/a, cc0
+wordpress.jpg, typographyimages, https://pixabay.com/en/wordpress-wordpress-logo-1810632/, n/a, cco
+windows.jpg, raphaelsilva, https://pixabay.com/en/windows-windows-icon-windows-logo-3384024/, n/a, cc0
+android.jpg, raphaelsilva, https://pixabay.com/en/android-android-icon-android-logo-3384009/, n/a, cc0
+paypal.jpg, raphaelsilva, https://pixabay.com/en/paypal-paypal-icon-paypal-logo-3384015/, n/a, cc0
+youtube.jpg, slightly_different, https://pixabay.com/en/youtube-logo-graphic-red-1837872/, n/a, cc0
+twitter.jpg, Mizter_x94, https://pixabay.com/en/twitter-social-networks-i-like-it-1848505/, n/a, cc0
+spotify.jpg, raphaelsilva, https://pixabay.com/en/spotify-spotify-icon-spotify-logo-3384019/, n/a, cc0
+flickr.jpg, raphaelsilva, https://pixabay.com/en/flickr-flickr-icon-flickr-logo-3384012/, n/a, cc0
+vimeo.jpg, raphaelsilva, https://pixabay.com/en/vimeo-vimeo-icon-vimeo-logo-3384025/, n/a, cc0
+skype.jpg, raphaelsilva, https://pixabay.com/en/skype-skype-icon-skype-logo-3384016/, n/a, cc0
+tumblr, raphaelsilva, https://pixabay.com/en/tumblr-tumblr-icon-tumblr-logo-3384021/, n/a, cc0
+soundcloud.jpg, raphaelsilva, https://pixabay.com/en/soundcloud-soundcloud-icon-3384018/, n/a, cc0
+instagram.jpg, jieun1605, https://pixabay.com/en/instagram-insta-logo-new-images-1675670/, n/a, cc0
+bitcoin.jpg, mohamed_hassan, https://pixabay.com/en/cryptocurrency-blockchain-3305671/, n/a, cc0
+facebook.jpg, raphaelsilva, https://pixabay.com/en/facebook-face-facebook-icon-3000954/, n/a, cc0
+pinterest.jpg, kirstyfields, https://pixabay.com/en/pinterest-icon-symbol-sign-logo-2151052/, n/a, cc0
+amazon.jpg, kirstyfields, https://pixabay.com/en/amazon-icon-app-symbol-button-2183855/, n/a, cc0
+googleplus.jpg, kirstyfields, https://pixabay.com/en/google-google-plus-gmail-business-2172744/, n/a, cc0
+whatsapp.jpg, aalmeidah, https://pixabay.com/en/whatsapp-communication-1984584/, n/a, cc0
+snapchat.jpg, MIH83, https://pixabay.com/en/snapchat-social-media-photograph-1360003/, n/a, cc0
+
+
+//car companies
+ferrari.jpg, jingoba, https://pixabay.com/en/ferrari-brno-racing-car-automobiles-296886/, n/a, cc0
+citroen.jpg, stux, https://pixabay.com/en/citro%C3%ABn-ds-21-automotive-382994/, n/a, cc0
+peugeot.jpg, bedwards, https://pixabay.com/en/car-brand-logo-mascot-peugeot-247938/, n/a, cc0
+maserati.jpg, 422737, https://pixabay.com/en/maserati-logo-car-brand-noble-model-488394/, n/a, cc0
+porsche.jpg, stux, https://pixabay.com/en/coat-of-arms-signet-logo-brand-349889/, n/a, cc0
+volkswagen.jpg, simon, https://pixabay.com/en/vw-volkswagen-auto-automotive-1043116/, n/a, cc0
+mercedes.jpg, DariuszSankowski, https://pixabay.com/en/mercedes-old-auto-car-sport-brand-996070/, n/a, cc0
+bentley.jpg, DariuszSankowski, https://pixabay.com/en/bentley-auto-car-sport-brand-logo-996093/, n/a, cc0
+mitsubishi.jpg, DariuszSankowski, https://pixabay.com/en/mitsubishi-auto-car-sport-brand-996078/, n/a, cc0
+audi.jpg, webandi, https://pixabay.com/en/audi-logo-auto-brand-characters-2435928/, n/a, cc0
+tesla.jpg, BurritoBazooka, https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg, n/a, not required
+toyota.jpg, unknown, https://commons.wikimedia.org/wiki/File:Toyota_carlogo.svg, n/a, not required
+subaru.jpg, Dale Gillard, https://www.flickr.com/photos/dalegillard/238252448, n/a, cc0
+honda.jpg, bernardsie, https://pixabay.com/en/honda-logo-car-1596081/, n/a, cc0
+skoda.jpg, TheJohnus, https://pixabay.com/en/auto-vehicle-transport-system-3310162/, n/a, cc0
+jaguar.jpg, sportwagen, https://pixabay.com/en/jaguar-logo-black-silver-emblem-1076207/, n/a, cc0
+hyundai.jpg, KoalaParkLaundromat, https://pixabay.com/en/hyundai-car-vehicle-badge-emblem-1282364/, n/a, cc0
+morrisGarages.jpg, KoalaParkLaundromat, https://pixabay.com/en/mg-car-classic-vintage-blue-2000097/, n/a, cc0
+miniCooper.jpg, KoalaParkLaundromat, https://pixabay.com/en/mini-car-emblem-badge-red-british-1283171/, n/a, cc0
+jaguar.jpg, KoalaParkLaundromat, https://pixabay.com/en/jaguar-car-emblem-bonnet-1185050/, n/a, cc0
+rollsRoyce.jpg, not mentioned, https://pxhere.com/en/photo/1029686, n/a, cc0
+renault.jpg, Cicero, https://pixabay.com/en/auto-renault-talisman-2967071/, n/a, cc0
+cadillac.jpg, Michi1308, https://www.flickr.com/photos/22256255@N05/2146660835, n/a, cc0
+
+
+//flags
+norway.jpg, paulbr, https://pixabay.com/en/flag-of-norway-flag-background-3116623/, n/a, cc0
+canada.jpg, OpenClipart-Vectors, https://pixabay.com/en/canada-flag-canadian-country-159585/, n/a, cc0
+usa.jpg, deMysticWay, https://pixabay.com/en/usa-flag-stars-and-stripes-american-2887014/, n/a, cc0
+england.jpg, deMysticWay, https://pixabay.com/en/england-flag-red-blue-white-2906827/, n/a, cc0
+india.jpg, paulbr75, https://pixabay.com/en/india-flag-country-background-3096740/, n/a, cc0
+switzerland.jpg, paulbr75, https://pixabay.com/en/swiss-flag-switzerland-country-flag-3109178/, n/a, cc0
+scotland.jpg, MBGraffix, https://pixabay.com/en/scottish-saltire-flag-jack-union-3283657/, n/a, cc0
+germany.jpg, Comfreak, https://pixabay.com/en/germany-flag-home-country-1454777/, n/a, cc0
+france.jpg, Comfreak, https://pixabay.com/en/france-flag-home-country-1454908/, n/a, cc0
+sweden.jpg, paulbr75, https://pixabay.com/en/sweden-flag-background-backdrop-3109205/, n/a, cc0
+argentina.jpg, JoeBamz, https://pixabay.com/en/argentina-flags-argentina-flag-3001464/, n/a, cc0
+italy.jpg, DavidRockDesign, https://pixabay.com/en/italy-flag-europe-rome-wallpaper-1460295/, n/a, cc0
+ukraine.jpg, Kaufdex, https://pixabay.com/en/ukraine-flag-country-ukraine-flag-2696944/, n/a, cc0
+greece.jpg, dimitrisvetsikas1969, https://pixabay.com/en/greece-country-nation-greek-flag-1746461/, n/a, cc0
+chile.jpg, DavidRockDesign, https://pixabay.com/en/chile-flag-national-chilean-flag-1460323/, n/a, cc0
+china.jpg, mayns82, https://pixabay.com/en/flag-country-china-1040555/, n/a, cc0
+mexico.jpg, TheDigitalArtist, https://pixabay.com/en/mexico-flag-flag-mexico-nation-1332910/, n/a, cc0
+colombia.jpg, DavidRockDesign, https://pixabay.com/en/colombia-flag-colombian-flag-1460312/, n/a, cc0
+japan.jpg, DavidRockDesign, https://pixabay.com/en/japan-flag-nation-country-national-1460334/, n/a, cc0
+austria.jpg, mayns82, https://pixabay.com/en/flag-country-austria-1022605/, n/a, cc0
+australia.jpg, mayns82, https://pixabay.com/en/flag-country-australia-1022604/, n/a, cc0
+poland.jpg, DavidRockDesign, https://pixabay.com/en/flag-poland-nation-free-image-1488032/, n/a, cc0
+russia.jpg, TayebMEZAHDIA, https://pixabay.com/en/russia-russian-world-cup-2018-3037400/, n/a, cc0
+belgium.jpg, mayns82, https://pixabay.com/en/flag-country-belgium-1040530/, n/a, cc0
+spain.jpg, OpenClipart-Vectors, https://pixabay.com/en/spain-flag-national-flag-nation-162428/, n/a, cc0
+
+//icons
+icons are downloaded from the https://material.io/icons/ and are free to use and modify.
+
+//music is downloaded from http://soundimage.org/puzzle-music/ and are free to use.
+It is attributed in the game.
+
+The images and icons does not need attribution.
+
+

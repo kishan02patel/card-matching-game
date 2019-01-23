@@ -1,0 +1,244 @@
+----------
+13/04/2018
+----------
+
+Started working on my project.
+
+** Files Created **
+---------------------
+--> index.html
+--> index.css
+--> gameData.js
+--> mathsGameData.js
+--> app.js
+--> ui.js
+--> util.js
+---------------------
+
+** gameData.js file contains data for the game i.e. categories and its data that will be used in the game. Initially it only has 1 category that is used to test the app but later more categories will be added.
+
+** mathsGameData.js file is used to create the questions and answers dynamically. Rather than storing the basic maths question it dynamically generates the questions & answers and pushes this object into array according to the current level selected.
+
+** util.js contains a random function that is used to generate a random number between a min and max value that is passed as a parameter to this function.
+
+** ui.js contains functions related to the HTML element creation that are used multiple times in this app.
+
+** app.js loads the game and creates the basic ui to check whether everything is working correct or not.
+
+** index.css contains a class deck that is used to give the look of a card.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+16/04/2018
+----------
+
+** Added new categories - fruits and animals. Created an array of objects storing image location as the question value and its correct answer in the answer value.
+
+** Created the basic home screen that is loaded when the app loads and gives three option to the user. Currently, only the play option is provided functionality. 
+
+** On clicking the play button the app shows various categories which are generated dynamically by getting the data stored in the categories array.
+
+** On selecting the categories the appropriate category will be loaded.
+
+** Adjusted the game code to check for categories whether its a maths or other categories. For maths we are generating dynamic data but for every other category we have an image and an answer.
+
+** For other categories load the image and answer to the card. This is generalised so any category will have the same process. No need for seperate functions for each category.
+
+** If new category is added then it will automatically show in the category screen and can also be played without any tweeks.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+18/04/2018
+---------- 
+
+** Added the functionality to hide the cards on load and show when they are clicked.
+
+** Added the functionality to check how many cards are open at any instance.
+
+** Added the functionality to disable the cards for few seconds when 2 cards are opened at a time.
+
+** Hide the cards after few seconds when 2 cards have been opened.
+
+** Re-enable the cards after few seconds so that the game can be continued.
+
+** New functionality added that checks whether the 2 open cards are a match or not.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+19/04/2018
+---------- 
+
+** If the cards are match color them green and dont turn them back (i.e. close)
+
+** If the cards are wrong flash them red and turn them back.
+
+** Made changes to the functions. Instead of calling seperate funtions for image question and answer paragraph I created a generalised function that can accept both and check for each of the following and take actions accordingly.
+
+** Checks whether the game is finished or not.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+20/04/2018
+---------- 
+
+** Changes the level if the game is finished.
+
+** Added the functionality of checking which level the user has reached.
+
+** Cleared a bug that was adding maths questions to the previously generated questions.
+
+** Added the most important functionality of storing the levels that have been cleared by the user. So whenever the user starts the game next time the next level is loaded. This is done for each category in the game. So, whichever category the user selects he/she resumes from the last game he/she played.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+23/04/2018
+---------- 
+
+** Removed a bug. When a card is clicked twice the game accepts as the correct answer because the card id is checked with itself which is true.
+
+** Removed a bug that was letting the player click a same card twice.
+
+** Made changes to the UI. Components are now centered in the screen.
+
+** Buttons now look better with 3D. And they can grow in size if the text inside them is increased.
+
+** Menu Buttons and category buttons now respond to screen size. Grow and shink with screen size. 
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+26/04/2018
+---------- 
+
+** Cards now look better and gives a 3D feel.
+
+** Made changes to the code. Instead of using Div and paragraphs to display question and answer images/text, now unordered list is used.  
+
+** Made changes to the deck of cards. Earlier when the image was shown on the card the card used to grow and the whole deck got distorted. Now the card remains the same.
+
+** Made the game responsive. Cards and deck are now adjusted according to the screen. Fonts are also adjusted according to the screen.
+
+** Changes to the flashing of card red/green. Earlier only text card flashed the colour but now images also show the appropriate colour. 
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+30/04/2018
+----------
+
+** Added the functionality to shuffle the cards(Took extra time as shuffling the unordered list was not easy). 
+
+** Added the functionality that shows how many levels are there in a category.
+
+** Now the user can select the level which he/she wants to play.
+
+** Added restriction such that user can only play those levels that are unlocked i.e. the previous level must be cleared.
+
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+03/05/2018
+----------
+
+** Removed the bug. When the user played previous levels that were already cleared then the next levels were overridden as not cleared. It was happening because when the user won that game I was pushing that to local storage  which was overriding previous value.
+
+** Added functionality that lets user select whether he/she wants to play next level, replay this level or go to menu when the level is cleared.
+
+** Removed a bug that was increasing levels as user completed new levels.  
+
+** Added the functionality that redirects user to the main menu if all the levels in the category are completed. 
+
+** Timer added for each level.
+
+** Added the functionality that lets user pause the game. It displays a popup with options to resume, restart or go to main menu.
+
+** Removed the bug. The timer counted the time even when the user has hit the pause button. 
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+04/05/2018
+----------
+
+** Made changes to the UI so that the new popups and buttons increase and decrease in size according to the resolution.
+
+** Added the functionality that counts number of moves.
+
+** Added the functionality that calculates score for the current level and then when the level completes adds it to the category's total score.
+
+** Removed a bug. When the level is completed and next level is started the timer ticks 2 seconds at a time due to old setInterval and new level setInterval both increasing the time.
+
+** Now the user can check the scoreboard to see his/her total score for each category.
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+07/05/2018
+----------
+
+** Made changes to the UI. The zoom was too large which is now reduced.
+
+** Red and green flashes when the answer is wrong or right is now reduced. Earlier it was too long. 
+
+** The cards were disabled for too long due to flash time. Now it is reduced.
+
+** Pause button didn't look good and the text looked like roman numerals. Now its better.
+
+** Added a back button that lets you go back.
+
+** More levels added for fruits and animals.
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+14/05/2018
+----------
+
+** Made changes to the scoreboard. Earlier it was not looking good and the text was not formatted correctly. Now it is displayed in a table format.
+
+** Solved a bug. When restarting a game all the variables were not reset to 0. Now its solved.
+
+** Solved a bug. After completing the game when we clicked replay then the previous level was loaded.
+
+** Solved a bug. If you open a card and then restart the game then in the next game it displays red/ green flash as the array previouosly contained a card and now you opened a card so it checks for the answer. Now its solved.
+
+** Settings screen is now functional. It has two buttons: one to reset a particular category and other to reset all the categories.  
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+15/05/2018
+----------
+
+** Reduced a lot of code by making reusable UI components for back button, normal button, and creating a basic UI for all screens. (Took a lot of time)  
+
+** Solved a bug. Earlier playing a already completed level added the score to total score. Now it doesn't add.
+
+** Solved a bug. When playing a level and if in the middle you go to menu or level selection and start the same category then after playing some time the game shows completed due to old variable values (cards added to the array). Now it doesn't. 
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+16/05/2018
+----------
+
+** Created another reusable UI component to display popup. Reduced a lot of code by using this function. Document also looks cleaner now. (Took a lot of time)
+
+** Added new categories and levels.
+
+** Changed the popup UI function code to adjust for the scoreboard also. It now checks whether the passed parameter is text or an element(table) and acts accordingly. 
+
+** Solved a bug. When resetting I passed a function so that popup can be displayed that category is reset but due to this reset was not working. Now its solved.
+-------------------------------------------------------------------------------------------------------------------
+
+----------
+16/05/2018
+----------
+
+** Music added. Buttons added to toggle between play and pause.
+
+** Created a music button function that can generate button and also set action listeners.
+
+** Created a toggle music function that can be called from various places to toggle music.
+
+** In settings, new button added to set music controls. A volume slider is added to adjust the volume.

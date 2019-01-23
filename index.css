@@ -1,0 +1,799 @@
+/*
+	This animation is applied to the cards when they do not match.
+	If the cards are not same then flash red colour.
+*/
+@keyframes notMatched 
+{
+	0% 
+	{
+		background-color: black;
+	}
+	50% 
+	{ 
+		background-color: red;
+	}
+	100% 
+	{
+		background-color: black;
+	}
+}
+
+/*
+	This animation is applied to the cards when they match.
+	If the cards are same then turn the card to green.
+*/
+@keyframes matched 
+{
+	0% 
+	{
+		background-color: black;
+	}
+
+	50% 
+	{ 
+		background-color: #4CBB17;
+	}
+	100% 
+	{
+		background-color: green;
+	}
+}
+
+/* Set margin of html and body to 0. No space around */
+html, body 
+{
+	margin: 0;
+}
+
+/*
+	Deck is used to contain all the cards within it. 
+	Flex is used so that cards adjusts according to the screen.
+	If more cards are added then the container will expand automatically.
+	It will also respond to the screen size and layout will be adjusted automatically.
+	Deck will consume 80% of the parent.   
+*/
+.deck 
+{
+	width: 80%;
+	background: #b4a647;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 15px 15px 15px 0 rgba(46, 61, 73, 1);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 10px;
+	overflow: auto;
+}
+
+/*
+	Each card inside the deck is given these styles.
+	When the mouse is brought over the card the cursor changes to pointer to imply that it can be clicked.
+*/
+.deck .card 
+{
+	height: 70px;
+	width: 70px;
+	margin: 8px 8px;
+	background: #141214;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+	box-shadow: 5px 5px 10px 0 rgba(46, 61, 73, 1);
+	font-size: 15px;
+}
+
+/*
+	This class is used to disable the open card so that the card cannot be clicked again.
+*/
+.deck .disable
+{
+	pointer-events: none;
+}
+
+/*
+	This class is applied to the currently opened cards.
+	The background turns white with black text so that it can be distinguished from closed cards.
+*/
+.deck .open
+{
+	background-color:white;
+	color:black;
+}
+
+/*
+	This class is used to show some animation if the cards are a match.
+	The color of the card gradually changes and stays green after the animation.
+	Pointer events are disabled so that the cards that are matched cannot be clicked again.
+*/
+.deck .matched
+{
+	animation-name: matched;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	background-color:green !important;
+	pointer-events: none;
+}
+
+/*
+	This class is used to flash the green or red colour in the images.
+	Opacity is used so that color flashes can be seen. Otherwise it was not visible.
+*/
+.imageFlash
+{
+	opacity:0.5;
+}
+
+/*
+	This class is used to show some animation if the cards do not match.
+	The color of card changes from black to red and then it again turns black.
+*/
+.deck .notMatched
+{
+	animation-name: notMatched;
+	animation-duration: 0.6s;
+	animation-iteration-count: 1.5;
+	animation-timing-function:linear;
+	background-color:red !important;
+}
+
+/*
+	This class is used because question cards need to display an image.
+	And the image should be same size as cards.
+	If this is not used the image gets zoomed and whole image is not displayed in the card.
+*/
+.cardImages 
+{
+	height: 70px;
+	width: 70px;
+}
+
+/*
+	This class is used to display the music icon.
+	The icon size must be equal to or less than the div size. 
+*/
+img.music 
+{
+	height: 25px;
+	width: 30px;
+}
+
+/*
+	When the mouse is hovered over the icon the icon will grow in size. Zoom-in effect.
+*/
+img.music:hover 
+{
+	height: 30px;
+	width: 35px;
+}
+
+/*
+	This class is used to create basic UI on each screen.
+	All the elements of the page will be contained inside this DIV.
+*/
+div.basicUIDiv 
+{	
+	height:100%;
+	width:100%;
+	background-color:#827717;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow:auto;
+}
+
+/*
+	This class is used by the tutorials screen.
+	It sets the height and width to 100%.
+*/
+div.basicUIDivForTutorials 
+{
+	height:100%;
+	width:100%;
+}
+
+/*
+	This class is used to create center Div.
+	It is useful for displaying buttons and options in the center of the screen.
+	This class is used for the div that is inserted inside basicUIDiv so that the contents 
+	can be displayed in the center.
+	flex-direction is set to column so the next element will appear below the first.
+*/
+div.centerUIDiv
+{
+	height:100%;
+	width:70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*
+	This class is used to create center Div for level screen.
+	It is useful for displaying levels in the center of the screen.
+	This is similar to centerUIDiv but the major difference is flex-direction.
+	The elements are position next to one another.
+*/
+div.levelScreenCenterUIDiv 
+{
+	height:100%;
+	width:60%;
+	background-color:#827717;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+/*
+	This class is applied to the headings that are used in some pages.
+*/
+.heading 
+{
+	color:white;
+	margin: 20px auto;
+	font-size: 40px;
+}
+
+/*
+	This class is applied to the labels that are used in some pages.
+*/
+.labels 
+{
+	color:white;
+	margin: 20px auto;
+	font-size: 25px;
+}
+
+/*
+	This class is applied to the buttons.
+	Customises the buttons like play button, score button, category buttons etc.
+	Text will appear at the center of the button.
+	Note that I have used min-width and min-height so that the button cannot get smaller than that
+	when the screen size is reduced. This is done to avoid cropping the text.
+	I have set a pointer so that it feels like a button.
+*/
+div.menuButtonsDiv, div.categoryBox, div.popupButtons
+{
+	text-align: center;
+	margin: 10px auto;
+	min-height: 25px;
+	min-width: 130px;
+	line-height: 30px;
+	height: 30px;
+	width: min-content;
+	width: 35%;
+	border: 6px solid #524c00;
+	box-shadow: 6px 6px 10px 0 rgba(42,36,0,1);
+	background-color:#b4a647;
+	border-radius: 5px;
+	color:white;
+	font-weight: bold;
+	overflow:hidden;
+	font-size: 23px;
+	cursor: pointer;
+	z-index:2;
+}
+
+/*
+	When the mouse is hovered over the button the button gets enlarged. 
+	This is done to focus the button.
+	The text will turn green.
+*/
+div.menuButtonsDiv:hover,div.categoryBox:hover,div.popupButtons:hover
+{
+	min-width: 140px;
+	height: 35px;
+	line-height: 35px;
+	width: 40%;
+	font-size: 27px;
+	color: green;
+	margin: 7.5px auto;
+}
+
+/*
+	Margin of popup buttons needs to be different as the popup size is smaller than the screen. 
+*/
+div.popupButtons:hover 
+{
+	margin: 5px auto;
+}
+
+/*
+	This class is applied to the back button. 
+	Its position is absolute and appears in top left corner. 
+*/
+div.backButton 
+{
+	height: 20px;
+	line-height: 20px;
+    width: 80px;
+	background-color:#b4a647;
+	cursor: pointer;
+	text-align:center;
+	margin: 10px 0px 15px 15px;
+	border: 5px solid #524c00;
+	box-shadow: 6px 6px 10px 0 rgba(42,36,0,1);
+	border-radius: 4px;
+	color:white;
+	font-weight: bold;
+	overflow:hidden;
+	font-size: 15px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+/*
+	When mouse is over the button then the button grows in size.
+	Text turn to green to show focus.
+*/
+div.backButton:hover 
+{
+	height: 25px;
+	line-height: 25px;
+	width: 85px;
+	font-size: 20px;
+	color: green;
+	margin: 10px 0px 10px 15px;
+}
+
+/*
+	Customise the level display buttons in levels screen.
+	This class is different from menubuttons class because of the size of the buttons.
+*/
+div.lockedLevelNumberBox, div.levelNumberBox
+{
+	height: 35px;
+    line-height: 35px;
+    width: 35px;
+	background-color:#b4a647;
+	cursor: pointer;
+	text-align:center;
+	margin: 0px 15px 15px 15px;
+	border: 5px solid #524c00;
+	box-shadow: 6px 6px 10px 0 rgba(42,36,0,1);
+	border-radius: 4px;
+	color:white;
+	font-weight: bold;
+	overflow:hidden;
+	font-size: 25px;
+}
+
+/*
+	The button will grow when mouse is hovered.
+	Text will turn green to show that the level can be played and its unlocked.
+*/
+div.levelNumberBox:hover 
+{
+	height: 45px;
+	line-height: 45px;
+	width: 45px;
+	font-size: 35px;
+	color: green;
+	margin: 0px 10px 5px 10px;
+}
+
+/*
+	The button should not grow because its locked.
+	Text should turn red to represent that this level is locked.
+*/	
+div.lockedLevelNumberBox:hover  
+{
+	color: red;
+	font-size: 35px;
+	cursor:default;
+}
+
+/*
+	This is applied to the Popup Div.
+	The opacity of background is reduced so that it appears that popup is on the top of screen.
+	The z-index is used so that popup always stays on top.
+*/
+div.popup 
+{
+    position: fixed; 
+    z-index: 5; 
+    margin:auto;
+	left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+	line-height:auto;
+}
+
+/*
+	Inside the popup div there is a popup-content div that contains all the content.
+	This class is applied so that contents appear somewhere near to the center of the screen. 
+*/
+div.popup-content 
+{
+    background-color: #827717 ;
+    margin: 10vh auto;
+    padding: 15px;
+    border: 5px solid #524c00;
+    width: 60%;
+	color:white;
+	font-size: 20px;
+	text-align:center;
+	overflow: auto;
+}
+
+/*
+	This class is applied to the score bar that contains moves, timer, pause button etc.
+	Flex is used so that it grows and shrinks with the screen resolution.
+*/
+div.scoreBar 
+{
+	width: 80%;
+	background: #b4a647;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 15px 15px 15px 0 rgba(46, 61, 73, 1);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10px 10px;
+}
+
+/*
+	This class is used to customise the pause button in the score bar.
+*/
+div.pauseButton 
+{
+	text-align:center;
+	height:25px;
+	width: 30px;
+	line-height: 25px;
+	border: 3px solid #524c00;
+	box-shadow: 3px 3px 7px 0 rgba(42,36,0,1);
+	background-color:#b4a647;
+	border-radius: 4px;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 2.5px;
+	font-family: arial;
+	overflow:hidden;
+}
+
+/*
+	Pause button will grow when mouse is hovered.
+	Text will turn green to show focus.
+*/
+div.pauseButton:hover 
+{
+	height: 30px;
+	line-height: 30px;
+	width: 35px;
+	font-size: 30px;
+	color: green;
+	margin: 0px;
+}
+
+/*
+	This class is applied to the moves, timer and score div
+	to set its color and font properties.
+*/
+div.moves,div.timer 
+{
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+	line-height:30px;
+}
+
+/* 
+	This class is applied to the Close Button in the music menu.
+	The "X" character is displayed and hence its text properties are set here.
+*/
+.close 
+{
+	color: white;
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+	margin-bottom: 20px;
+	font-family: arial;
+}
+
+/*
+	When the mouse is hovered over the close button the color and cursor changes.
+*/
+.close:hover
+{
+    color: #000;
+    cursor: pointer;
+}
+
+/*
+	These styles are applied to the score table.
+*/
+table 
+{
+	border: 3px solid black;
+	margin: 10px auto;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+/*
+	These styles are applied to the cells inside the score table.
+*/
+td 
+{
+    border: 2px solid black;
+	padding: 3px 7px;
+	text-align: center;
+}
+
+/*
+	These styles are applied to the header of the score table.
+*/
+thead 
+{
+	font-weight: bold;
+    background-color:#524c00;
+	color:white;
+}
+
+/*
+	When mouse is hovered over any text in the table it should turn white. 
+*/
+tr:hover 
+{
+	color: white;
+}
+
+/*
+	This class is applied to the music button div.
+	This will be displayed at top right corner.
+*/
+.musicButton 
+{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+/*
+	@Media Rules
+
+	For Tablets and larger screens.
+	These rules will be applied to the screen that have a minimum width of 820px.
+	820px is used instead of 768px as iphone X has greater resolution(812px).
+	So to be safe 820px is used as breakpoint.
+*/
+
+@media (min-width: 820px) 
+{
+
+	.deck .card 
+	{
+		height: 120px;
+		width: 120px;
+		font-size: 25px;
+	}
+	
+	.cardImages 
+	{
+		height: 120px;
+		width: 120px;
+	}
+	
+	div.menuButtonsDiv, div.categoryBox, div.popupButtons 
+	{
+		min-height:	30px;
+		font-size: 25px;
+		width: min-content;
+		height: 35px;
+		line-height: 35px;
+		width: 35%;
+		margin: 10px auto;
+		border: 8px solid #524c00;
+		box-shadow: 8px 8px 10px 0 rgba(42,36,0,1);
+	}
+	
+	div.menuButtonsDiv:hover,div.categoryBox:hover, div.popupButtons:hover
+	{
+		height: 40px;
+		width: min-content;
+		line-height: 38px;
+		width: 40%;
+		font-size: 30px;
+		color: green;
+		margin: 7.5px auto;
+	}
+	
+	div.popupButtons:hover 
+	{
+		margin: 5px auto;
+	}	
+
+	div.lockedLevelNumberBox, div.levelNumberBox
+	{
+		height: 50px;
+		line-height: 50px;
+		width: 50px;
+		margin: 0px 20px 20px 20px;
+		border: 8px solid #524c00;
+		box-shadow: 8px 8px 10px 0 rgba(42,36,0,1);
+		font-size: 30px;
+	}
+
+	div.levelNumberBox:hover 
+	{
+		height: 60px;
+		line-height: 60px;
+		width: 60px;
+		font-size: 40px;
+		color: green;
+		margin: 0px 15px 10px 15px;
+	}
+	
+	div.lockedLevelNumberBox:hover  
+	{
+		color: red;
+		font-size: 40px;
+		cursor:default;
+	}
+	
+	div.moves,div.timer 
+	{
+		color:white;
+		font-size: 30px;
+		font-weight: bold;
+		line-height:50px;
+	}
+	
+	div.pauseButton 
+	{
+		height:40px;
+		width: 40px;
+		line-height: 40px;
+		border: 5px solid #524c00;
+		box-shadow: 5px 5px 10px 0 rgba(42,36,0,1);
+		border-radius: 5px;
+		font-size: 30px;
+		margin: 2.5px;
+	}
+
+	div.pauseButton:hover 
+	{
+		height:45px;
+		width: 45px;
+		line-height: 45px;
+		font-size: 35px;
+		color: green;
+		margin: 0px;
+	}
+	
+	div.popup-content 
+	{
+		background-color: #827717 ;
+		margin: 10vh auto;
+		padding: 15px;
+		border: 8px solid #524c00;
+		width: 50%;
+		color:white;
+		font-size: 30px;
+		text-align:center;
+		overflow:auto;
+	}
+	
+	div.lockedLevelNumberBox, div.levelNumberBox
+	{
+		height: 50px;
+		line-height: 50px;
+		width: 50px;
+		background-color:#b4a647;
+		cursor: pointer;
+		text-align:center;
+		margin: 0px 20px 20px 20px;
+		border: 8px solid #524c00;
+		box-shadow: 8px 8px 10px 0 rgba(42,36,0,1);
+		border-radius: 5px;
+		color:white;
+		font-weight: bold;
+		overflow:hidden;
+		font-size: 30px;
+	}
+
+
+	div.levelNumberBox:hover 
+	{
+		height: 60px;
+		line-height: 60px;
+		width: 60px;
+		font-size: 40px;
+		color: green;
+	}
+		
+	div.lockedLevelNumberBox:hover 
+	{
+		color: red;
+		font-size: 40px;
+		cursor:default;
+	}
+	
+	div.backButton 
+	{
+		height: 30px;
+		line-height: 30px;
+		width: 90px;
+		font-size: 20px;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	
+	div.backButton:hover 
+	{
+		height: 35px;
+		line-height: 35px;
+		width: 95px;
+		font-size: 25px;
+	}
+	
+	table 
+	{
+		border: 4px solid black;
+		margin: 20px auto;
+		border-collapse: collapse;
+		font-size: 25px;	
+	}
+
+	td 
+	{
+		border: 3px solid black;
+		padding: 4px 12px;
+		text-align:center;
+	}
+	
+	img.music 
+	{
+		height: 40px;
+		width: 40px;
+	}
+	
+	img.music:hover 
+	{
+		height:45px;
+		width: 45px;
+	}
+	
+	.close 
+	{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	
+	.heading 
+	{
+		color:white;
+		margin: 20px auto;
+		font-size: 55px;
+	}
+	
+	.labels 
+	{
+		color:white;
+		margin: 20px auto;
+		font-size: 40px;
+	}
+}
+
